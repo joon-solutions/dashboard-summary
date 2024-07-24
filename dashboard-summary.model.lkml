@@ -17,4 +17,5 @@ connection: "joon-sandbox"
 #     relationship: many_to_one
 #     sql_on: ${users.id} = ${orders.user_id} ;;
 #   }
+#
 # }
