@@ -1,9 +1,7 @@
-project_name: "dashboard-summarization-extension"
-
-application: dashboard-summarization {
-  label: "Dashboard Insights Powered by Vertex AI"
-  file: "bundle.js"
-  # url: "http://localhost:8080/bundle.js"
+application: debug-dashboard-summarization {
+  label: "debug dashboard summarization"
+  # file: "bundle.js"
+  url: "https://localhost:3333/dashboard_summarization.js"
   mount_points: {
     dashboard_vis: yes
     dashboard_tile: yes
